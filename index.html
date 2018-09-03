@@ -23,10 +23,23 @@
 </div>
 
 <h3>You have 90 seconds to guess the answers to the following 6 questions:</h3>
- 
-<button id ="start">Click to get started! </button>
+
+<input type="button" value="Click to get started!"
+onClick='alert("You have 90 seconds. Go!")'>
+
+<div>
+
+<p id = "counter">Here's how much time you have left: 00.00</p>
+
+</div>
 
 <div id ="question">
+
+    <p id= "ansRight"></p>
+    <p id= "ansWrong"></p>
+    <p id= "notAnswered"></p>
+    <p id= "score"></p>
+    <p id= "question"></p>
 
 
     <p id ="q1">
@@ -36,14 +49,17 @@
     <button class = "true">True</button>
     <button class = "false">False</button>
 
+    <p id ="a1">True</p>
+
+
     <p id ="q2">Jefferson was the 8th president of the United States.
 
     </p>
 
-
     <button class = "true">True</button>
     <button class = "false">False</button>
 
+    <p id ="a2">False</p>
 
 <p id ="q3">Jefferson was the main author of the Declaration of Independence.
 
@@ -52,12 +68,16 @@
 <button class = "true">True</button>
 <button class = "false">False</button>
 
+<p id ="a3">True</p>
+
 <p id ="q4">
     At his death, Jefferson freed the children he fathered with his slave, Sally Hemings.
 </p>
 
 <button class = "true">True</button>
 <button class = "false">False</button>
+
+<p id ="a4">True</p>
 
 <p id ="q5">
     Jefferson played the violin.
@@ -66,12 +86,16 @@
 <button class = "true">True</button>
 <button class = "false">False</button>
 
+<p id ="a5">True</p>
+
 <p id ="q6">Jefferson was a Supreme Court Justice.
 
 </p>
 
 <button class = "true">True</button>
 <button class = "false">False</button>
+
+<p id ="a6">False</p>
 
 </div>
 

@@ -58,4 +58,15 @@
     float: right;
 }
 
+#counter {
 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-color: red;
+}
+
+h1 {
+    font-family: fantasy
+    font-size: 28px;
+    font-color: blue;
+}

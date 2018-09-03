@@ -1,4 +1,25 @@
+
+
 //idea here is to start the game - all questions are true or false
+
+
+// here is the counter
+var timeleft = 90;
+var downloadTimer = setInterval(function(){
+  document.getElementById("counter").value = 90 - --timeleft;
+  if(timeleft <= 0)
+    clearInterval(downloadTimer);
+},1000);
+
+<progress value="0" max="90" id="progressBar"></progress>
+
+
+//when the user clicks the correct answer, 
+
+document.getElementById("#q1").onclick = function () {
+    alert("True!");
+}
+
 
 var startGame = function (){
 
@@ -52,7 +73,9 @@ var score = 0
 var questionIndex = 0;
 
 //need to note when the user pushes the buttons:
-document.onkeyup(); true or false
+document.onkeyup(); "true || false"
+
+
 
 
 //no matter the response to the question - right or wrong - go to the next question
@@ -65,13 +88,14 @@ var checkWin
 
 var checkWin = function () {
 
-if{ response ([0] === true);
+if { 
+    function (response [0] === true);
 alert ("That is correct!");
 score++;
 updateScore();
 }
 
-else {
+else if {
     alert ("Try again!");
 }
 
@@ -129,3 +153,5 @@ updateScore();
 };
 
 //scoring = need to track # of right ans, # of wrong ans and # of unaswered
+
+
