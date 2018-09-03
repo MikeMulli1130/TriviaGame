@@ -1,0 +1,61 @@
+
+
+.container {
+    width: 900px;
+    background-color: paleturquoise;
+    padding: 40px;
+    margin: 60px;
+    
+    
+}
+#q1 {
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 16px;
+    font-style: italic;   
+
+}
+
+#q2 {
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 16px;
+    font-style: italic;   
+
+}
+
+#q3 {
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 16px;
+    font-style: italic;   
+
+}
+
+#q4 {
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 16px;
+    font-style: italic;   
+
+}
+
+#q5 {
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 16px;
+    font-style: italic;   
+
+}
+
+#q6 {
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 16px;
+    font-style: italic;   
+
+}
+
+#teeJay {
+    width: 125px;
+    height: 200px;
+    border: 20px;
+    padding: 40px;
+    float: right;
+}
+
+
