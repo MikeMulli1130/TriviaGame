@@ -20,7 +20,7 @@ document.getElementById("#q1").onclick = function () {
     alert("True!");
 }
 
-
+//to start the game we need a start game function - 
 var startGame = function (){
 
 
@@ -112,6 +112,8 @@ updateScore();
     if{ response([2] === true);
         alert ("That is correct!");
         score++;
+
+
 updateScore();
         }
         
@@ -153,5 +155,7 @@ updateScore();
 };
 
 //scoring = need to track # of right ans, # of wrong ans and # of unaswered
-
+//I know i need to relate this to my html in lines 38-42
+// still not quite clear on linking between javascript and html. What I could get to work
+//i did in HTML
 
