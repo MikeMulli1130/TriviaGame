@@ -5,18 +5,27 @@
 
 // here is the counter
 var timeleft = 90;
-var downloadTimer = setInterval(function(){
+document.getElementById("counter").textContent = timeleft;
+document.getElementById("start-button").onclick = function(){
+    console.log("this works");
+
+    timeleft--
+    //set interval here
+}
+
+
+/*var downloadTimer = setInterval(function(){
   document.getElementById("counter").value = 90 - --timeleft;
   if(timeleft <= 0)
     clearInterval(downloadTimer);
-},1000);
+},1000);*/
 
-<progress value="0" max="90" id="progressBar"></progress>
+//<progress value="0" max="90" id="progressBar"></progress>
 
 
 //when the user clicks the correct answer, 
 
-document.getElementById("#q1").onclick = function () {
+/*document.getElementById("#q1").onclick = function () {
     alert("True!");
 }
 
@@ -152,7 +161,7 @@ updateScore();
                     }
 
 
-};
+};*/
 
 //scoring = need to track # of right ans, # of wrong ans and # of unaswered
 //I know i need to relate this to my html in lines 38-42
